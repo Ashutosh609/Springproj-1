@@ -48,13 +48,13 @@ function Bodyclick(c, i) {
     Home1[0].style.display = 'none';
     document.getElementById(c).children[i].style.display = 'grid';
     if (c == 'sbody' && i == 0) {
-        document.getElementsByTagName('body')[0].style.backgroundImage = "url('static/nature1.jpg')";
+        document.getElementsByTagName('body')[0].style.backgroundImage = "url('nature1.jpg')";
     }
     if (c == 'sbody' && i == 1) {
-        document.getElementsByTagName('body')[0].style.backgroundImage = "url('static/bodybuild3.jpg')";
+        document.getElementsByTagName('body')[0].style.backgroundImage = "url('bodybuild3.jpg')";
     }
     if (c == 'sbody' && (i == 2) || i==3) {
-        document.getElementsByTagName('body')[0].style.backgroundImage = "url('static/food_items1.jpg')";
+        document.getElementsByTagName('body')[0].style.backgroundImage = "url('food_items1.jpg')";
     }
 
     marquee.style.display = 'none';
